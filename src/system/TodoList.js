@@ -6,7 +6,7 @@ import Todo from './Todo';
 import client from 'src/apollo-client';
 import BillRecords from "./BillRecordsTable";
 
-function TodoList() 
+const TodoList =() =>
 {
     const [recordList, setRecordList] = useState([]);
     const [singleRecord, setSingleRecord] = useState([]);
